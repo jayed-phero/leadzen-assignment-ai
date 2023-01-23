@@ -29,7 +29,7 @@ const HeroNavbar = () => {
                         <div class="lg:flex lg:items-center lg:justify-between">
                             <div class="flex items-center justify-between">
                                 <div class="text-xl font-semibold text-gray-700">
-                                    <a class="text-2xl font-semibold text-gray-800 transition-colors duration-300 transform dark:text-white hover:text-gray-700 dark:hover:text-gray-300" href="#"> <i class="fa-solid fa-shield-halved"></i>Leadzen.JI</a>
+                                    <a class="text-2xl font-semibold text-gray-800 transition-colors duration-300 transform dark:text-white hover:text-gray-700 dark:hover:text-gray-300" href="#"> <i class="fa-solid fa-shield-halved"></i>Leadzen.ai</a>
                                 </div>
 
                                 {/* <!-- Mobile menu button --> */}
@@ -84,51 +84,10 @@ export default HeroNavbar;
 
 
 
-
-{/* <nav class="lg:flex lg:justify-between lg:items-center">
-    <div class="flex items-center justify-between lg:hidden">
-        <div className='flex items-center gap-3'>
-            <h3><i class="text-4xl text-blue-500  fa-solid fa-computer"></i></h3>
-            <p className="text-2xl font-bold ">
-                COPlus
-            </p>
-        </div>
-        <div class="flex lg:hidden">
-            <button onClick={() => setOpen(!isOpen)} type="button" class="text-gray-500 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none focus:text-gray-600 dark:focus:text-gray-400" aria-label="toggle menu">
-                {
-                    isOpen ?
-                        <svg x-show="isOpen" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                            stroke-width="2">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                        </svg>
-                        :
-                        <svg x-show="!isOpen" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M4 8h16M4 16h16" />
-                        </svg>
-                }
-            </button>
-        </div>
-    </div>
-    <div className={`absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-gray-900 md:bg-transparent md:dark:bg-transparent md:mt-0 md:p-0 md:top-0 md:relative md:w-auto md:opacity-100 md:translate-x-0 md:flex md:items-center md:justify-between ${isOpen ? 'translate-x-0 opacity-100 ' : 'opacity-0 -translate-x-full'}`}>
-
-        <div className='hidden md:block flex items-center gap-3'>
-            <h3><i class="text-4xl text-blue-500  fa-solid fa-computer"></i></h3>
-            <p className="text-2xl font-bold ">
-                COPlus
-            </p>
-        </div>
-
-        <div class="flex flex-col space-y-4 lg:mt-0 lg:flex-row lg:space-y-0">
-            <a class="text-gray-700 font-bold hover:text-white lg:mr-9 dark:text-gray-200 " href="#">Home</a>
-            <a class=" text-gray-700 font-bold lg:mx-9 " href="#">Components</a>
-            <a class="text-gray-700 font-bold hover:text-white lg:mx-9 " href="#">Pricing</a>
-            <Link to='/contact' class="text-gray-200 font-bold hover:text-white lg:mx-9 ">Contact</Link>
-            <a class="text-gray-200 font-bold hover:text-white lg:mx-9" href="#">FAQ</a>
-            <Link to='/contact' class="block h-10 px-5 py-2 mt-4 text-sm text-center text-gray-200 capitalize transition-colors duration-300 transform border rounded-md font-bold hover:text-gray-700 dark:text-gray-900 lg:mt-0 hover:bg-gray-100 lg:w-auto" >
-                Contact Us
-            </Link>
-        </div>
-
-
-    </div>
-</nav > */}
+// echo "# leadzen-assignment-ai" >> README.md
+// git init
+// git add README.md
+// git commit -m "first commit"
+// git branch -M main
+// git remote add origin https://github.com/jayed-phero/leadzen-assignment-ai.git
+// git push -u origin main

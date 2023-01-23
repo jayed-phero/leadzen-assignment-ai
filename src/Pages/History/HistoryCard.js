@@ -30,7 +30,7 @@ const HistoryCard = ({ data }) => {
                 </button>
             </div>
             <div>
-                <section className='w-full p-9 ' {...getCollapseProps()}>
+                <section className='w-full p-3 md:p-9 ' {...getCollapseProps()}>
                     <div className='px-5 py-5 shadow-lg border rounded-xl'>
                         <div>
                             <h3 className='font-semibold text-left'>Description</h3>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
+import HeroFooter from '../Shared/HeroFooter';
 import HeroNavbar from '../Shared/HeroNavbar';
 
 const Main = () => {
@@ -7,6 +8,7 @@ const Main = () => {
         <div>
             <HeroNavbar/>
             <Outlet/>
+            <HeroFooter/>
         </div>
     );
 };
